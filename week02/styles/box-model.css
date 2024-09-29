@@ -15,7 +15,7 @@
     box-shadow: 0 0 10px #eee;
     width: 125px;
     height: auto;
-    background-color: #eee;
+    background-color: gray;
 }
 
 blockquote {
@@ -27,5 +27,4 @@ cite {
     border-top: 1px dotted #fff;
     padding-top: 0;
     text-align: right;
-    text-size-adjust: smaller;
 }
