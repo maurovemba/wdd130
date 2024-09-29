@@ -13,7 +13,7 @@ h1 {
     color: steelblue;
 }
 
-img {
+main img {
     width: 150px;
     ;
     height: auto;
@@ -23,7 +23,7 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0;
 }
 
 main {
@@ -35,7 +35,7 @@ aside {
     margin: 1rem;
     padding: 1rem;
     border: 1px dashed rgba(0, 0, 0, 0.4);
-    background-color: rgb(18, 113, 191);
+    background-color: #808080e4;
     color: black;
 }
 
