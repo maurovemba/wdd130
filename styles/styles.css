@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'Rock Salt', 'Bradley Hand', cursive;
+}
+
 :root {
     --padding: 1rem;
     --background-color: rgb(18, 124, 102);
     --border: 1px double black;
+    --position: relative;
+    --display: block;
 }
 
 nav {
@@ -26,10 +38,12 @@ main img {
     border: var(--border);
     padding: var(--padding);
     box-shadow: 0 0 30px gray;
+
 }
 
 p {
     padding: var(--padding);
+    display: block;
 }
 
 main {
@@ -49,11 +63,13 @@ aside {
 aside img {
     width: 200px;
     height: auto;
+    position: var(--position);
 }
 
 main img {
     width: 150px;
     height: auto;
+    position: var(--position);
 }
 
 p {
