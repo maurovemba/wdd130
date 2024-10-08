@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #b8b291;
+    --secondary-color: #95e3e4;
+    --heading: 'Dancing Script', cursive, serif;
+    --paragraph: 'Roboto Condensed', sans-serif;
+    --background-color: #262624;
+
+}
+
+body {
+    font-family: var(--paragraph);
+    background-color: var(--background-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading);
+    color: var(--primary-color);
+}
+
+p {
+    color: var(--secondary-color);
+}
+
+article p {
+    color: #ffff;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translatex(-50%);
+    background-color: rgba(109, 118, 58, 0.24);
+}
+
+.hero img {
+    display: block;
+    height: auto;
+    width: 100%;
+
+
+}
+
+article {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.458);
+    top: 150px;
+    width: 80%;
+}
+
+.hero article img {
+    width: 200px;
+    float: right;
+    position: relative;
+}
+
+main {
+    display: block;
+}
+
+footer img {
+    width: 40px;
+    height: auto;
+}
