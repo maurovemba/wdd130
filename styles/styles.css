@@ -4,6 +4,13 @@ body {
     font-family: Roboto, Helvetica, sans-serif;
 }
 
+header {
+    display: grid;
+    background-color: var(--background-color);
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 h1 {
     font-family: 'Rock Salt', 'Bradley Hand', cursive;
 }

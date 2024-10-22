@@ -1,17 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --primary-color: #b8b291;
-    --secondary-color: #95e3e4;
+    --primary-color: #fcfcfc;
+    --secondary-color: black;
     --heading: 'Dancing Script', cursive, serif;
     --paragraph: 'Roboto Condensed', sans-serif;
-    --background-color: #262624;
+    --background-color: #ffff;
+    --nav-background-color: #E4DBFB;
+    --nav-link-color: #fcfcfc;
+    --nav-hover-link-color: #CFB1B7;
+    --nav-hover-background-color: #83858C;
 
 }
 
 body {
     font-family: var(--paragraph);
-    background-color: var(--background-color);
+    background-color: var(--primary-color);
+}
+
+header {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--nav-hover-background-color);
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+    margin-right: 25px;
+}
+
+nav {
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+    line-height: 3rem;
+    text-align: right;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+    margin-right: 1rem;
+    color: var(--nav-link-color);
 }
 
 h1,
@@ -20,17 +60,31 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--heading);
+    font-family: var(--heading-font);
     color: var(--primary-color);
+    margin-top: 10px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    background-color: #535353;
+    border-radius: 15px;
+}
+
+section {
+    max-width: 1200px;
+    margin: 10px;
+}
+
+section img {
+    width: 80%;
+    margin: 5px;
+    position: relative;
+
 }
 
 p {
     color: var(--secondary-color);
 }
 
-article p {
-    color: #ffff;
-}
 
 .hero {
     position: relative;
@@ -50,6 +104,25 @@ article p {
     width: 100%;
 
 
+}
+
+.adventures {
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.adventure-image {
+    flex: 1;
+    text-align: center;
+}
+
+.adventure-image img {
+    max-width: 100%;
 }
 
 article {
@@ -72,4 +145,23 @@ main {
 footer img {
     width: 40px;
     height: auto;
+}
+
+.centered {
+    text-align: center;
+}
+
+
+.sociallinks {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sociallinks a {
+    margin-left: 10px;
+}
+
+.sociallinks img {
+    width: 40px;
+
 }
