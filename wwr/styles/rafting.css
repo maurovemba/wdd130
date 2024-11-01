@@ -165,3 +165,88 @@ footer img {
     width: 40px;
 
 }
+
+
+iframe {
+    display: flex;
+    align-content: center;
+    border: 0;
+}
+
+.adventures {
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.adventure-image {
+    flex: 1;
+    text-align: center;
+}
+
+.adventure-image img {
+    max-width: 100%;
+}
+
+
+.employee-profiles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.employee {
+    text-align: center;
+    margin: 20px;
+}
+
+.employee img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.employee p {
+    margin-top: 10px;
+}
+
+form {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+textarea {
+    border: 1px solid #999999;
+    width: 100%;
+    margin: 5px 0;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+button,
+.cta-button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+article img {
+    display: grid;
+}
+
+button,
+.cta-button:hover {
+    background-color: #535353;
+}

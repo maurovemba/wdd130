@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | White Water Rafting</title>
+    <meta name="description" content="This page is for our contacts.">
+    <meta name="author" content="Mauro Vemba">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/downriver.png" alt="logo">
+        <nav class="navigation">
+            <a href="index.html ">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+
+        </nav>
+    </header>
+    <main>
+        <h1>Contact Us</h1>
+        <p>Visit us at:</p>
+        <address>
+            Bairro: Camama<br>
+            Cidade Universitária, Luanda-Angola
+        </address>
+        <p>Phone: (+244) 948699583</p>
+        <p>Email: <a href="mailto:mauro.josemar.vemba@gmail.com">mauro.josemar.vemba@gmailcom</a></p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d31534.494446632434!2d13.2805975!3d-8.8970818!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sao!4v1730434035451!5m2!1sen!2sao"
+            width="600" height="450" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <div class="employee">
+            <img src="images/mauro_vemba_ceo.webp" alt="CEO">
+            <figcaption>Mauro Vemba, CEO</figcaption>
+        </div>
+        <div class="employee">
+            <img src="images/antonio_it_tech.webp" alt="Adventure Guide">
+            <figcaption>Antonio Chimbungo, Adventure Guide</figcaption>
+        </div>
+        <div class="employee">
+            <img src="images/ana_cabeto_custome_support.webp" alt="Customer Support">
+            <figcaption>Ana Cabeto, Customer Support<figcaption>
+        </div>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <p>Purpose of Message:</p>
+            <label><input type="radio" name="purpose" id="inquiry" value="General Inquiry"> General Inquiry</label>
+            <label><input type="radio" name="purpose" id="question" value="Reservation Question"> Reservation
+                Question</label>
+            <label><input type="radio" name="purpose" id="suggestion" value="Website Suggestion"> Website
+                Suggestion</label>
+            <textarea id="feedback" name="feedback" rows="4" placeholder="Please leave your message!"></textarea>
+
+            <label><input type="checkbox" name="subscribe" id="subscribe" value="yes"> Please subscribe me to the
+                monthly newsletter</label>
+
+            <button type="submit">Click here to Submit</button>
+        </form>
+    </main>
+
+    <footer>
+
+        <p class="centered">&copy;2024 🌍 White Water Rafting🌍 Mauro Vemba</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook_icon.webp" alt="facebook icon"></a>
+            <a href="https://whatsapp.com" target="_blank">
+                <img src="images/whatsapp_icon.png" alt="Whatsapp icon"></a>
+            <a href="https://tiktok.com" target="_blank">
+                <img src="images/tik_tok_icon.png" alt="Tik Tok icon"></a>
+        </nav>
+
+    </footer>
+
+</body>
+
+</html>
